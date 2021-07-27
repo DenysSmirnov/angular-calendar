@@ -1,6 +1,6 @@
 {
-  "name": "angular-calendar",
-  "version": "0.28.26",
+  "name": "labx-angular-calendar",
+  "version": "0.28.29",
   "description": "A calendar component for angular 6.0+ that can display events on a month, week or day view",
   "funding": {
     "url": "https://github.com/sponsors/mattlewis92"
@@ -37,7 +37,7 @@
     "release": "run-s release:git release:npm",
     "postrelease": "npm run gh-pages",
     "gh-pages:demos": "ng build --prod",
-    "gh-pages:compodoc": "compodoc -p tsconfig-compodoc.json -d dist/demos/docs --disableGraph --disableCoverage --disablePrivate --disableInternal --disableLifeCycleHooks --disableProtected --gaID UA-63367573-2",
+    "gh-pages:compodoc": "compodoc -p tsconfig-compodoc.json -d dist/demos/docs --disableGraph --disableCoverage --disablePrivate --disableInternal --disableLifeCycleHooks --disableProtected",
     "gh-pages:deploy": "ng deploy",
     "gh-pages": "run-s build:clean gh-pages:demos gh-pages:compodoc gh-pages:deploy build:clean"
   },
@@ -54,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattlewis92/angular-calendar.git"
+    "url": "git+https://github.com/ididenko/angular-calendar"
   },
   "keywords": [
     "angular",
@@ -66,9 +66,9 @@
   "author": "Matt Lewis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mattlewis92/angular-calendar/issues"
+    "url": "https://github.com/ididenko/angular-calendar/issues"
   },
-  "homepage": "https://github.com/mattlewis92/angular-calendar#readme",
+  "homepage": "https://github.com/ididenko/angular-calendar#readme",
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.901.12",
     "@angular-devkit/build-ng-packagr": "^0.901.12",
@@ -160,8 +160,9 @@
     "@scarf/scarf": "^1.1.0",
     "angular-draggable-droppable": "^4.6.0",
     "angular-resizable-element": "^3.3.5",
-    "calendar-utils": "^0.8.4",
+    "laboratoryx-calendar-utils": "0.8.8",
     "positioning": "^2.0.1",
+    "run-s": "^0.0.0",
     "tslib": "^1.14.1"
   },
   "sideEffects": [
