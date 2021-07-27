@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.28.29](https://github.com/ididenko/angular-calendar/compare/v0.28.26...v0.28.29) (2021-07-27)
+
 ### [0.28.26](https://github.com/mattlewis92/angular-calendar/compare/v0.28.25...v0.28.26) (2021-06-20)
 
 
