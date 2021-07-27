@@ -5,7 +5,7 @@ import {
   EventEmitter,
   TemplateRef,
 } from '@angular/core';
-import { CalendarEvent } from 'calendar-utils';
+import { CalendarEvent } from 'laboratoryx-calendar-utils';
 import { Subject } from 'rxjs';
 import { CalendarEventTimesChangedEvent } from '../common/calendar-event-times-changed-event.interface';
 import { PlacementArray } from 'positioning';
@@ -49,6 +49,7 @@ export type CalendarDayViewBeforeRenderEvent = CalendarWeekViewBeforeRenderEvent
       [eventTitleTemplate]="eventTitleTemplate"
       [eventActionsTemplate]="eventActionsTemplate"
       [snapDraggedEvents]="snapDraggedEvents"
+      [eventWidth]="eventWidth"
       [allDayEventsLabelTemplate]="allDayEventsLabelTemplate"
       [currentTimeMarkerTemplate]="currentTimeMarkerTemplate"
       (eventClicked)="eventClicked.emit($event)"
@@ -79,6 +80,11 @@ export class CalendarDayViewComponent {
    * The height in pixels of each hour segment
    */
   @Input() hourSegmentHeight: number = 30;
+
+  /**
+   * Fixed size of event
+   */
+  @Input() eventWidth: number = 200;
 
   /**
    * The day start hours in 24 hour time. Must be 0-23

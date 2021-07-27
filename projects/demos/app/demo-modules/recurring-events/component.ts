@@ -15,7 +15,7 @@ import {
   CalendarWeekViewBeforeRenderEvent,
 } from 'angular-calendar';
 import { colors } from '../demo-utils/colors';
-import { ViewPeriod } from 'calendar-utils';
+import { ViewPeriod } from 'laboratoryx-calendar-utils';
 
 interface RecurringEvent {
   title: string;

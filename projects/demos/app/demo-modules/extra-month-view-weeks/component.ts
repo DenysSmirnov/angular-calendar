@@ -1,7 +1,7 @@
 import { Component, ChangeDetectionStrategy, Injectable } from '@angular/core';
 import { CalendarEvent, CalendarUtils } from 'angular-calendar';
 import { subWeeks, startOfMonth, endOfMonth, addWeeks } from 'date-fns';
-import { GetMonthViewArgs, MonthView } from 'calendar-utils';
+import { GetMonthViewArgs, MonthView } from 'laboratoryx-calendar-utils';
 
 @Injectable()
 export class MyCalendarUtils extends CalendarUtils {

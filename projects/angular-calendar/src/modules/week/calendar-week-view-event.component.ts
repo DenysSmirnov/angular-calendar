@@ -9,7 +9,7 @@ import {
   WeekViewAllDayEvent,
   WeekViewTimeEvent,
   WeekViewHourColumn,
-} from 'calendar-utils';
+} from 'laboratoryx-calendar-utils';
 import { PlacementArray } from 'positioning';
 
 @Component({

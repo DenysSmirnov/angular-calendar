@@ -1,4 +1,4 @@
-import { CalendarEvent } from 'calendar-utils';
+import { CalendarEvent } from 'laboratoryx-calendar-utils';
 
 export enum CalendarEventTimesChangedEventType {
   Drag = 'drag',

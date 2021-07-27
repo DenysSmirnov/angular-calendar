@@ -5,7 +5,7 @@ import {
   EventEmitter,
   TemplateRef,
 } from '@angular/core';
-import { MonthViewDay, CalendarEvent } from 'calendar-utils';
+import { MonthViewDay, CalendarEvent } from 'laboratoryx-calendar-utils';
 import { isWithinThreshold, trackByEventId } from '../common/util';
 import { PlacementArray } from 'positioning';
 

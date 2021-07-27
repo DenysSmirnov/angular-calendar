@@ -7,7 +7,7 @@ import {
   ViewPeriod,
   WeekDay,
   WeekViewAllDayEvent,
-} from 'calendar-utils';
+} from 'laboratoryx-calendar-utils';
 import { DateAdapter } from '../../date-adapters/date-adapter';
 
 export const validateEvents = (events: CalendarEvent[]) => {

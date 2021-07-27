@@ -1,4 +1,8 @@
-import { MonthViewDay, CalendarEvent, EventAction } from 'calendar-utils';
+import {
+  MonthViewDay,
+  CalendarEvent,
+  EventAction,
+} from 'laboratoryx-calendar-utils';
 
 /**
  * The parameters passed to the a11y methods.

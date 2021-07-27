@@ -1,4 +1,4 @@
-import { adapterFactory as baseAdapterFactory } from 'calendar-utils/date-adapters/date-fns';
+import { adapterFactory as baseAdapterFactory } from 'laboratoryx-calendar-utils/date-adapters/date-fns';
 import {
   addWeeks,
   addMonths,

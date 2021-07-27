@@ -5,7 +5,7 @@ import {
   EventEmitter,
   TemplateRef,
 } from '@angular/core';
-import { CalendarEvent, WeekDay } from 'calendar-utils';
+import { CalendarEvent, WeekDay } from 'laboratoryx-calendar-utils';
 import { trackByWeekDayHeaderDate } from '../common/util';
 
 @Component({

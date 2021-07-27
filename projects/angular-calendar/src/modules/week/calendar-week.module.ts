@@ -17,7 +17,7 @@ export {
   WeekViewAllDayEvent as CalendarWeekViewAllDayEvent,
   WeekViewAllDayEventRow as CalendarWeekViewAllDayEventRow,
   GetWeekViewArgs as CalendarGetWeekViewArgs,
-} from 'calendar-utils';
+} from 'laboratoryx-calendar-utils';
 export { getWeekViewPeriod } from '../common/util';
 
 @NgModule({

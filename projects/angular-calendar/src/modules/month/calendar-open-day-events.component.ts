@@ -13,7 +13,7 @@ import {
   animate,
   AnimationTriggerMetadata,
 } from '@angular/animations';
-import { CalendarEvent } from 'calendar-utils';
+import { CalendarEvent } from 'laboratoryx-calendar-utils';
 import { isWithinThreshold, trackByEventId } from '../common/util';
 
 export const collapseAnimation: AnimationTriggerMetadata = trigger('collapse', [

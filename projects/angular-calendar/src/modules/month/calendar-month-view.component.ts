@@ -17,7 +17,7 @@ import {
   MonthView,
   MonthViewDay,
   ViewPeriod,
-} from 'calendar-utils';
+} from 'laboratoryx-calendar-utils';
 import { Subject, Subscription } from 'rxjs';
 import {
   CalendarEventTimesChangedEvent,

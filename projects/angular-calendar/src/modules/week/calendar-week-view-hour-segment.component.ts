@@ -1,5 +1,5 @@
 import { Component, Input, TemplateRef } from '@angular/core';
-import { WeekViewHourSegment } from 'calendar-utils';
+import { WeekViewHourSegment } from 'laboratoryx-calendar-utils';
 
 @Component({
   selector: 'mwl-calendar-week-view-hour-segment',

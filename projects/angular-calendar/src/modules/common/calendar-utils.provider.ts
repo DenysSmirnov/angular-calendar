@@ -9,7 +9,7 @@ import {
   getMonthView,
   getWeekViewHeader,
   getWeekView,
-} from 'calendar-utils';
+} from 'laboratoryx-calendar-utils';
 import { DateAdapter } from '../../date-adapters/date-adapter';
 
 @Injectable()

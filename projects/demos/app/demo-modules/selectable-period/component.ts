@@ -9,7 +9,7 @@ import {
   CalendarView,
   CalendarWeekViewBeforeRenderEvent,
 } from 'angular-calendar';
-import { WeekViewHour, WeekViewHourColumn } from 'calendar-utils';
+import { WeekViewHour, WeekViewHourColumn } from 'laboratoryx-calendar-utils';
 
 @Component({
   selector: 'mwl-demo-component',

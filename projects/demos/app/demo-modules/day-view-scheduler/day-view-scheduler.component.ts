@@ -24,7 +24,7 @@ import {
   CalendarEvent,
   WeekViewAllDayEventRow,
   WeekViewAllDayEvent,
-} from 'calendar-utils';
+} from 'laboratoryx-calendar-utils';
 import { DragEndEvent, DragMoveEvent } from 'angular-draggable-droppable';
 
 export interface User {
@@ -83,7 +83,8 @@ export class DayViewSchedulerCalendarUtils extends CalendarUtils {
   templateUrl: 'day-view-scheduler.component.html',
   providers: [DayViewSchedulerCalendarUtils],
 })
-export class DayViewSchedulerComponent extends CalendarWeekViewComponent
+export class DayViewSchedulerComponent
+  extends CalendarWeekViewComponent
   implements OnChanges {
   @Input() users: User[] = [];
 

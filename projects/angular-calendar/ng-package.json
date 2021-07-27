@@ -12,7 +12,8 @@
     "tslib",
     "angular-draggable-droppable",
     "angular-resizable-element",
-    "calendar-utils",
+    "laboratoryx-calendar-utils",
+    "run-s",
     "positioning",
     "@scarf/scarf"
   ]

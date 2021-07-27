@@ -18,7 +18,7 @@ import {
 } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { PlacementArray, positionElements } from 'positioning';
-import { CalendarEvent } from 'calendar-utils';
+import { CalendarEvent } from 'laboratoryx-calendar-utils';
 import { Observable, of, Subject, timer } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
