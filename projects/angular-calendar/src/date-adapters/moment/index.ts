@@ -1,4 +1,4 @@
-import { adapterFactory as baseAdapterFactory } from 'laboratoryx-calendar-utils/date-adapters/moment';
+import { adapterFactory as baseAdapterFactory } from 'laboratoryx-calendar-utils-v2/src/date-adapters/moment';
 import { DateAdapter } from '../date-adapter';
 
 export function adapterFactory(moment): DateAdapter {

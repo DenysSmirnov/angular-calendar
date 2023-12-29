@@ -1,7 +1,10 @@
 import { Component, ChangeDetectionStrategy, Injectable } from '@angular/core';
 import { CalendarEvent, CalendarUtils } from 'angular-calendar';
 import { subWeeks, startOfMonth, endOfMonth, addWeeks } from 'date-fns';
-import { GetMonthViewArgs, MonthView } from 'laboratoryx-calendar-utils';
+import {
+  GetMonthViewArgs,
+  MonthView,
+} from 'laboratoryx-calendar-utils-v2/src/calendar-utils';
 
 @Injectable()
 export class MyCalendarUtils extends CalendarUtils {
@@ -12,7 +15,6 @@ export class MyCalendarUtils extends CalendarUtils {
   }
 }
 
-// tslint:disable-next-line
 @Component({
   selector: 'mwl-demo-component',
   changeDetection: ChangeDetectionStrategy.OnPush,

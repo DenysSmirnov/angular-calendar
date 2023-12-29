@@ -1,4 +1,4 @@
-import { DateAdapter as BaseDateAdapter } from 'laboratoryx-calendar-utils/date-adapters/date-adapter';
+import { DateAdapter as BaseDateAdapter } from 'laboratoryx-calendar-utils-v2/src/date-adapters/date-adapter';
 
 export abstract class DateAdapter implements BaseDateAdapter {
   abstract addWeeks(date: Date | number, amount: number): Date;
@@ -94,4 +94,6 @@ export abstract class DateAdapter implements BaseDateAdapter {
   abstract getHours(date: Date | number): number;
 
   abstract getMinutes(date: Date | number): number;
+
+  abstract getTimezoneOffset(date: Date | number): number;
 }

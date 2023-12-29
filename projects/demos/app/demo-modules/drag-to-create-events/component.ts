@@ -6,7 +6,7 @@ import {
   ViewEncapsulation,
 } from '@angular/core';
 import { CalendarEvent, CalendarEventTitleFormatter } from 'angular-calendar';
-import { WeekViewHourSegment } from 'laboratoryx-calendar-utils';
+import { WeekViewHourSegment } from 'laboratoryx-calendar-utils-v2/src/calendar-utils';
 import { fromEvent } from 'rxjs';
 import { finalize, takeUntil } from 'rxjs/operators';
 import { addDays, addMinutes, endOfWeek } from 'date-fns';
@@ -34,7 +34,6 @@ export class CustomEventTitleFormatter extends CalendarEventTitleFormatter {
   }
 }
 
-// tslint:disable-next-line max-classes-per-file
 @Component({
   selector: 'mwl-demo-component',
   changeDetection: ChangeDetectionStrategy.OnPush,
