@@ -1,6 +1,7 @@
 import {
   ChangeDetectorRef,
   Component,
+  ElementRef,
   EventEmitter,
   Inject,
   Injectable,
@@ -78,14 +79,14 @@ export class DayViewSchedulerCalendarUtils extends CalendarUtils {
 }
 
 @Component({
-  // tslint:disable-line max-classes-per-file
   selector: 'mwl-day-view-scheduler',
   templateUrl: 'day-view-scheduler.component.html',
   providers: [DayViewSchedulerCalendarUtils],
 })
 export class DayViewSchedulerComponent
   extends CalendarWeekViewComponent
-  implements OnChanges {
+  implements OnChanges
+{
   @Input() users: User[] = [];
 
   @Output() userChanged = new EventEmitter();
@@ -98,9 +99,10 @@ export class DayViewSchedulerComponent
     protected cdr: ChangeDetectorRef,
     protected utils: DayViewSchedulerCalendarUtils,
     @Inject(LOCALE_ID) locale: string,
-    protected dateAdapter: DateAdapter
+    protected dateAdapter: DateAdapter,
+    protected element: ElementRef<HTMLElement>
   ) {
-    super(cdr, utils, locale, dateAdapter);
+    super(cdr, utils, locale, dateAdapter, element);
   }
 
   trackByUserId = (index: number, row: User) => row.id;
